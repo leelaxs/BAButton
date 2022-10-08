@@ -64,17 +64,17 @@
 /**
 *  Status bar height.
 */
-#define kStatusBarHeight                   [[UIApplication sharedApplication] statusBarFrame].size.height
+//#define kStatusBarHeight                   [[UIApplication sharedApplication] statusBarFrame].size.height
 
 /**
  *  Navigation bar height.
  */
-#define kNavigationBarHeight               44.0
+//#define kNavigationBarHeight               44.0
 
 /**
  *  Status bar & navigation bar height.
  */
-#define kStatusBarAndNavigationBarHeight  (kStatusBarHeight + kNavigationBarHeight)
+//#define kStatusBarAndNavigationBarHeight  (kStatusBarHeight + kNavigationBarHeight)
 
 #pragma mark - weak / strong
 #define BAKit_WeakSelf        @BAKit_Weakify(self);
